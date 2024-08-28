@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D28CE572C536D500070CCDC /* Config.dat in Resources */ = {isa = PBXBuildFile; fileRef = 0D28CE562C536D500070CCDC /* Config.dat */; };
+		0D3BBFB02C51971500B711C6 /* SecuredCallsVoiceSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 0D3BBFAF2C51971500B711C6 /* SecuredCallsVoiceSDK */; };
+		0D3BBFB32C51974000B711C6 /* SecuredCallsVoiceSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 0D3BBFB22C51974000B711C6 /* SecuredCallsVoiceSDK */; };
+		0D3BBFB82C51980B00B711C6 /* SecuredCallsVoiceSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 0D3BBFB72C51980B00B711C6 /* SecuredCallsVoiceSDK */; };
+		0DFD5F2F2C5046AB0031194F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFD5F2E2C5046AB0031194F /* AppDelegate.swift */; };
+		0DFD5F312C5046AB0031194F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFD5F302C5046AB0031194F /* SceneDelegate.swift */; };
+		0DFD5F332C5046AB0031194F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFD5F322C5046AB0031194F /* ViewController.swift */; };
+		0DFD5F362C5046AB0031194F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0DFD5F352C5046AB0031194F /* Base */; };
+		0DFD5F382C5046AC0031194F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DFD5F372C5046AC0031194F /* Assets.xcassets */; };
+		0DFD5F3B2C5046AC0031194F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0DFD5F3A2C5046AC0031194F /* Base */; };
+		0DFD5F692C511DB60031194F /* SecuredCallsVoiceSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 0DFD5F682C511DB60031194F /* SecuredCallsVoiceSDK */; };
+		0DFD5F6C2C511EA10031194F /* SecuredCallsVoiceSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 0DFD5F6B2C511EA10031194F /* SecuredCallsVoiceSDK */; };
+		0DFD5F6F2C5125D20031194F /* SecuredCallsVoiceSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 0DFD5F6E2C5125D20031194F /* SecuredCallsVoiceSDK */; };
+		0DFD5F722C5126B70031194F /* SecuredCallsVoiceSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 0DFD5F712C5126B70031194F /* SecuredCallsVoiceSDK */; };
+		0DFD5F752C5126FF0031194F /* SecuredCallsVoiceSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 0DFD5F742C5126FF0031194F /* SecuredCallsVoiceSDK */; };
+		FDC50D252C51EC1E00E43D0E /* SecuredCallsVoiceSDK in Frameworks */ = {isa = PBXBuildFile; productRef = FDC50D242C51EC1E00E43D0E /* SecuredCallsVoiceSDK */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D28CE562C536D500070CCDC /* Config.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Config.dat; path = "../../SecuredVoiceCallSampleApp-SwiftUI/SecuredVoiceCallSampleApp-SwiftUI/Config.dat"; sourceTree = "<group>"; };
+		0DFD5F2B2C5046AB0031194F /* SecuredVoiceCallSampleApp-UiKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SecuredVoiceCallSampleApp-UiKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DFD5F2E2C5046AB0031194F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DFD5F302C5046AB0031194F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0DFD5F322C5046AB0031194F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DFD5F352C5046AB0031194F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DFD5F372C5046AC0031194F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DFD5F3A2C5046AC0031194F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DFD5F3C2C5046AC0031194F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DFD5F532C5048170031194F /* SecuredVoiceCallSampleApp-UiKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SecuredVoiceCallSampleApp-UiKit.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DFD5F282C5046AB0031194F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3BBFB82C51980B00B711C6 /* SecuredCallsVoiceSDK in Frameworks */,
+				0D3BBFB32C51974000B711C6 /* SecuredCallsVoiceSDK in Frameworks */,
+				0DFD5F752C5126FF0031194F /* SecuredCallsVoiceSDK in Frameworks */,
+				0DFD5F6C2C511EA10031194F /* SecuredCallsVoiceSDK in Frameworks */,
+				FDC50D252C51EC1E00E43D0E /* SecuredCallsVoiceSDK in Frameworks */,
+				0DFD5F722C5126B70031194F /* SecuredCallsVoiceSDK in Frameworks */,
+				0DFD5F692C511DB60031194F /* SecuredCallsVoiceSDK in Frameworks */,
+				0DFD5F6F2C5125D20031194F /* SecuredCallsVoiceSDK in Frameworks */,
+				0D3BBFB02C51971500B711C6 /* SecuredCallsVoiceSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DFD5F222C5046AB0031194F = {
+			isa = PBXGroup;
+			children = (
+				0DFD5F2D2C5046AB0031194F /* SecuredVoiceCallSampleApp-UiKit */,
+				0DFD5F2C2C5046AB0031194F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DFD5F2C2C5046AB0031194F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DFD5F2B2C5046AB0031194F /* SecuredVoiceCallSampleApp-UiKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DFD5F2D2C5046AB0031194F /* SecuredVoiceCallSampleApp-UiKit */ = {
+			isa = PBXGroup;
+			children = (
+				0D28CE562C536D500070CCDC /* Config.dat */,
+				0DFD5F532C5048170031194F /* SecuredVoiceCallSampleApp-UiKit.entitlements */,
+				0DFD5F2E2C5046AB0031194F /* AppDelegate.swift */,
+				0DFD5F302C5046AB0031194F /* SceneDelegate.swift */,
+				0DFD5F322C5046AB0031194F /* ViewController.swift */,
+				0DFD5F342C5046AB0031194F /* Main.storyboard */,
+				0DFD5F372C5046AC0031194F /* Assets.xcassets */,
+				0DFD5F392C5046AC0031194F /* LaunchScreen.storyboard */,
+				0DFD5F3C2C5046AC0031194F /* Info.plist */,
+			);
+			path = "SecuredVoiceCallSampleApp-UiKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DFD5F2A2C5046AB0031194F /* SecuredVoiceCallSampleApp-UiKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DFD5F3F2C5046AC0031194F /* Build configuration list for PBXNativeTarget "SecuredVoiceCallSampleApp-UiKit" */;
+			buildPhases = (
+				0DFD5F272C5046AB0031194F /* Sources */,
+				0DFD5F282C5046AB0031194F /* Frameworks */,
+				0DFD5F292C5046AB0031194F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SecuredVoiceCallSampleApp-UiKit";
+			packageProductDependencies = (
+				0DFD5F682C511DB60031194F /* SecuredCallsVoiceSDK */,
+				0DFD5F6B2C511EA10031194F /* SecuredCallsVoiceSDK */,
+				0DFD5F6E2C5125D20031194F /* SecuredCallsVoiceSDK */,
+				0DFD5F712C5126B70031194F /* SecuredCallsVoiceSDK */,
+				0DFD5F742C5126FF0031194F /* SecuredCallsVoiceSDK */,
+				0D3BBFAF2C51971500B711C6 /* SecuredCallsVoiceSDK */,
+				0D3BBFB22C51974000B711C6 /* SecuredCallsVoiceSDK */,
+				0D3BBFB72C51980B00B711C6 /* SecuredCallsVoiceSDK */,
+				FDC50D242C51EC1E00E43D0E /* SecuredCallsVoiceSDK */,
+			);
+			productName = "SecuredVoiceCallSampleApp-UiKit";
+			productReference = 0DFD5F2B2C5046AB0031194F /* SecuredVoiceCallSampleApp-UiKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DFD5F232C5046AB0031194F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0DFD5F2A2C5046AB0031194F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 0DFD5F262C5046AB0031194F /* Build configuration list for PBXProject "SecuredVoiceCallSampleApp-UiKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DFD5F222C5046AB0031194F;
+			packageReferences = (
+				FDC50D232C51EC1E00E43D0E /* XCRemoteSwiftPackageReference "ios-securevoicecall-sdk" */,
+			);
+			productRefGroup = 0DFD5F2C2C5046AB0031194F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DFD5F2A2C5046AB0031194F /* SecuredVoiceCallSampleApp-UiKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DFD5F292C5046AB0031194F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DFD5F382C5046AC0031194F /* Assets.xcassets in Resources */,
+				0DFD5F3B2C5046AC0031194F /* Base in Resources */,
+				0DFD5F362C5046AB0031194F /* Base in Resources */,
+				0D28CE572C536D500070CCDC /* Config.dat in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DFD5F272C5046AB0031194F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DFD5F332C5046AB0031194F /* ViewController.swift in Sources */,
+				0DFD5F2F2C5046AB0031194F /* AppDelegate.swift in Sources */,
+				0DFD5F312C5046AB0031194F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0DFD5F342C5046AB0031194F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DFD5F352C5046AB0031194F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DFD5F392C5046AC0031194F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DFD5F3A2C5046AC0031194F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DFD5F3D2C5046AC0031194F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DFD5F3E2C5046AC0031194F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DFD5F402C5046AC0031194F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SecuredVoiceCallSampleApp-UiKit/SecuredVoiceCallSampleApp-UiKit.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXXL7J6ML3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SecuredVoiceCallSampleApp-UiKit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.es.sc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0DFD5F412C5046AC0031194F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SecuredVoiceCallSampleApp-UiKit/SecuredVoiceCallSampleApp-UiKit.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXXL7J6ML3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SecuredVoiceCallSampleApp-UiKit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.es.sc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DFD5F262C5046AB0031194F /* Build configuration list for PBXProject "SecuredVoiceCallSampleApp-UiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DFD5F3D2C5046AC0031194F /* Debug */,
+				0DFD5F3E2C5046AC0031194F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DFD5F3F2C5046AC0031194F /* Build configuration list for PBXNativeTarget "SecuredVoiceCallSampleApp-UiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DFD5F402C5046AC0031194F /* Debug */,
+				0DFD5F412C5046AC0031194F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FDC50D232C51EC1E00E43D0E /* XCRemoteSwiftPackageReference "ios-securevoicecall-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/expertstack-studios/ios-securevoicecall-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0D3BBFAF2C51971500B711C6 /* SecuredCallsVoiceSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SecuredCallsVoiceSDK;
+		};
+		0D3BBFB22C51974000B711C6 /* SecuredCallsVoiceSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SecuredCallsVoiceSDK;
+		};
+		0D3BBFB72C51980B00B711C6 /* SecuredCallsVoiceSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SecuredCallsVoiceSDK;
+		};
+		0DFD5F682C511DB60031194F /* SecuredCallsVoiceSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SecuredCallsVoiceSDK;
+		};
+		0DFD5F6B2C511EA10031194F /* SecuredCallsVoiceSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SecuredCallsVoiceSDK;
+		};
+		0DFD5F6E2C5125D20031194F /* SecuredCallsVoiceSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SecuredCallsVoiceSDK;
+		};
+		0DFD5F712C5126B70031194F /* SecuredCallsVoiceSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SecuredCallsVoiceSDK;
+		};
+		0DFD5F742C5126FF0031194F /* SecuredCallsVoiceSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SecuredCallsVoiceSDK;
+		};
+		FDC50D242C51EC1E00E43D0E /* SecuredCallsVoiceSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDC50D232C51EC1E00E43D0E /* XCRemoteSwiftPackageReference "ios-securevoicecall-sdk" */;
+			productName = SecuredCallsVoiceSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0DFD5F232C5046AB0031194F /* Project object */;
+}
