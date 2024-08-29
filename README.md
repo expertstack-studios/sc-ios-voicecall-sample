@@ -191,8 +191,6 @@ func pushRegistry(_ registry: PKPushRegistry, didReceiveIncomingPushWith payload
 ## Notes
 
 -   **API Key**: Replace `"xxxxxxxSECRETxxxxxxx"` with your actual API key.
--   **Error Handling**: Implement custom error handling as needed.
--   **Token Conversion**: Ensure `deviceToken.hexString` is properly defined for conversion.
 
 By following these steps, you’ll integrate the SecuredCalls Voice SDK effectively, meeting user privacy expectations and handling notifications efficiently.
 
