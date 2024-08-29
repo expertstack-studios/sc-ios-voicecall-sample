@@ -47,12 +47,6 @@ Add the following keys to your `Info.plist` file:
 
 ### Environment Configuration
 
-- **PushType**  
-    ```xml
-    <key>PushType</key>
-    <integer>0</integer> <!-- 0 for development, 1 for production -->
-    ```
-
 - **SC_APP_GROUP**  
     ```xml
     <key>SC_APP_GROUP</key>
@@ -148,7 +142,10 @@ func application(_ application: UIApplication, didRegisterForRemoteNotifications
     let token = deviceToken.hexString
     Task {
         if let userIdentifier = UserDefaults.standard.string(forKey: "userIdentifier") {
-            let isProduction = (Bundle.main.object(forInfoDictionaryKey: "PushType") as? NSNumber)?.boolValue ?? true
+            // Retrieve the 'isProduction' flag from UserDefaults to determine the environment
+            // 'true' indicates a production environment, while 'false' indicates a sandbox environment
+            // This flag should be set by the client based on the current deployment stage
+            let isProduction = UserDefaults.standard.bool(forKey: "isProduction")
             await SecuredCallsVoice.registerDeviceAsync(customerId: userIdentifier, token: token, isProduction: isProduction)
         } else {
             print("\(#function) user not registered")
