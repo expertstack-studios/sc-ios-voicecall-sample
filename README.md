@@ -87,7 +87,7 @@ Add the following keys to your `Info.plist` file:
 Initialize the SDK in `AppDelegate.swift`:
 
 ```swift
-import SecuredCallsVoice
+import SecuredCallsVoiceSDK
 
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     do {
@@ -104,7 +104,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 
 ```swift
-import SecuredCallsVoice
+import SecuredCallsVoiceSDK
 
 func requestContactAccess() async {
     await SecuredCallsVoice.requestContactAccessAsync()
@@ -115,7 +115,7 @@ func requestContactAccess() async {
 
 ```swift
 
-import SecuredCallsVoice
+import SecuredCallsVoiceSDK
 
 func requestNotificationPermission() async {
     await SecuredCallsVoice.requestNotificationPermissionAsync()
@@ -128,7 +128,7 @@ func requestNotificationPermission() async {
 
 ```swift
 
-import SecuredCallsVoice
+import SecuredCallsVoiceSDK
 
 func loginUser(userIdentifier: String) async {
     let success = await SecuredCallsVoice.loginAsync(identifier: userIdentifier)
@@ -142,7 +142,7 @@ func loginUser(userIdentifier: String) async {
 
 ```swift
 
-import SecuredCallsVoice
+import SecuredCallsVoiceSDK
 
 func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
     let token = deviceToken.hexString
@@ -161,7 +161,7 @@ func application(_ application: UIApplication, didRegisterForRemoteNotifications
 
 ```swift
 
-import SecuredCallsVoice
+import SecuredCallsVoiceSDK
 import PushKit
 
 func pushRegistry(_ registry: PKPushRegistry, didUpdate pushCredentials: PKPushCredentials, for type: PKPushType) {
@@ -177,7 +177,7 @@ func pushRegistry(_ registry: PKPushRegistry, didUpdate pushCredentials: PKPushC
 
 ```swift
 
-import SecuredCallsVoice
+import SecuredCallsVoiceSDK
 import PushKit
 
 func pushRegistry(_ registry: PKPushRegistry, didReceiveIncomingPushWith payload: PKPushPayload, for type: PKPushType, completion: @escaping () -> Void) {
